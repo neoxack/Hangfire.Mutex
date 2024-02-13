@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>Hangfire.Mutex</Title>
+        <Description>Mutex attribute for Hangfire jobs prevents concurrent execution of multiple background jobs that share the same resource identifier.</Description>
+        <Version>0.1.0</Version>
+        <PackageId>Hangfire.Mutex</PackageId>
+        <PackageTags>hangfire;mutex;concurrency</PackageTags>
+        <PackageProjectUrl>https://github.com/neoxack/Hangfire.Mutex</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Copyright>Semyon Dragunov</Copyright>
+        <Authors>Semyon Dragunov (neoxack@gmail.com)</Authors>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Hangfire.Core" Version="1.8.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+</Project>
