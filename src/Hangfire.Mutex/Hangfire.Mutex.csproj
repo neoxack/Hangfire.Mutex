@@ -10,7 +10,7 @@
         <Title>Hangfire.Mutex</Title>
         <Description>Mutex attribute for Hangfire jobs prevents concurrent execution of multiple background jobs that share the same resource identifier.</Description>
         <Version>0.1.0</Version>
-        <PackageId>Hangfire.Mutex</PackageId>
+        <PackageId>Neoxack.Hangfire.Mutex</PackageId>
         <PackageTags>hangfire;mutex;concurrency</PackageTags>
         <PackageProjectUrl>https://github.com/neoxack/Hangfire.Mutex</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
